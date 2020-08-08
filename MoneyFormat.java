@@ -96,7 +96,7 @@ public class MoneyFormat {
         	return String.valueOf(String.valueOf(Main.format(valor / 1.0E87))) + "OV"; //Octovigintilhão
         }
         if (valor < 1.0E93) {
-        	return String.valueOf(String.valueOf(Main.format(valor / 1.0E90))) + "NV"; //Novigintilhão
+        	return String.valueOf(String.valueOf(Main.format(valor / 1.0E90))) + "NV"; //Novemvigintilhão
         }
         if (valor < 1.0E96) {
         	return String.valueOf(String.valueOf(Main.format(valor / 1.0E93))) + "TT"; //Trigentilhão
