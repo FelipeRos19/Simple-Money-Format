@@ -1,6 +1,6 @@
-package SzBank.APIs;
+package SzBank.APIs; //Package do seu Projeto (Alterar)
 
-import SzBank.Main;
+import SzBank.Main; //Import da sua classe Main (Alterar)
 
 public class MoneyFormat {
 	
