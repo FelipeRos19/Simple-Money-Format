@@ -6,9 +6,11 @@ Setup:
 Em sua Main você deve adicionar o seguinte método:
 
 public static String format(final double valor) {
-		final NumberFormat format = NumberFormat.getInstance(Locale.GERMAN);
-		format.setMaximumFractionDigits(1);
-		return format.format(valor);
+
+final NumberFormat format = NumberFormat.getInstance(Locale.GERMAN);
+format.setMaximumFractionDigits(1);
+return format.format(valor);
+
 }
 
 Depois de adiciona-lo você só precisa copiar a Classe de MoneyFormat para o Projeto.
