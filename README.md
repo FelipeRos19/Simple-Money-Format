@@ -7,9 +7,9 @@ Em sua Main você deve adicionar o seguinte método:
 
 public static String format(final double valor) {
 
-final NumberFormat format = NumberFormat.getInstance(Locale.GERMAN);
-format.setMaximumFractionDigits(1);
-return format.format(valor);
+  final NumberFormat format = NumberFormat.getInstance(Locale.GERMAN); **Declaração**
+  format.setMaximumFractionDigits(1); **Pós ","**
+  return format.format(valor); **Retorno**
 
 }
 
